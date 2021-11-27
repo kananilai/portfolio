@@ -1,0 +1,156 @@
+html{
+  min-width: max-content;
+  overflow: auto;
+}
+body {
+	overflow-x: hidden;
+}
+  *{
+  font-family: 'Francois One', sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.drawer{
+  z-index:100;
+}
+.section-title{
+  margin-top:8%;
+  margin-bottom:5%;
+}
+.container{
+  padding:0;
+}
+/*-------------------- top -------------------*/
+.top {
+  z-index:1;
+  height: 100vh;
+  background-image: url("../img/top.png");
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  
+  padding:0;
+  margin:0;
+}
+.top-title{
+  margin-top:10%;
+  text-align:center;
+  padding-left:20%;
+  font-size:2.0em;
+  font-family: 'Domine', serif;
+}
+.give{
+  font-size:1.0em;
+  font-family: 'Domine', serif;
+}
+/*-------------------- profile card -------------------*/
+.card-body{
+  padding:0;
+}
+.profile-title{
+  display:inline-block;
+  background: linear-gradient(transparent 60%, #66ffd1 60%);
+}
+.name{
+  font-size:1.6em;
+  font-weight: bold;
+}
+.contact-title{
+  display:inline-block;
+  background: linear-gradient(transparent 60%, #66ffd1 60%);
+}
+.photo{
+  width:80%;
+}
+.profile-text{
+  font-size: 1.4em;
+}
+.ptof-img{
+  box-shadow: 0px 8px 16px -2px rgba(10,10,10,0.1), 11px 10px 6px 0px #262626;
+}
+/*-------------------- education-------------------*/
+.education-section{
+  margin-top: 10%;
+  padding-bottom: 10%;
+  background-color: #b4b4b438;
+}
+
+/*-------------------- background -------------------*/
+.background-content,
+.education-content{
+  font-size: 1.5em;
+}
+.background-section{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 10%;
+}
+
+/*-------------------- skill -------------------*/
+.skill-section{
+  padding-top:1%;
+  background-color: #b4b4b438;
+  padding-bottom:2%;
+}
+.skill{
+  margin:5%;
+  font-size:2.0em;
+}
+.skill-item{
+  margin-bottom: 10%;
+}
+.fa-php{
+  color:#7885c0;
+}
+.fa-code {
+  color:#726f72;
+}
+.fa-laravel{
+  color:#fb503b;
+}
+.fa-js-square{
+  color:#ebe719;
+}
+.fa-vuejs{
+  color:#41b883;
+}
+
+/*-------------------- works -------------------*/
+.cro-rec-title{
+  font-size: 2.3em;
+  display:inline-block;
+  background: linear-gradient(transparent 60%, #66ffd1 60%);
+}
+.modal-dialog-fluid {
+  max-width: inherit;
+  width: 98%;
+  margin-left: 15px;
+}
+.cro-rec-content{
+  font-size: 1.5em;
+}
+
+
+
+@media (min-width: 768px){
+  .container {
+    max-width: 768px;
+    max-width: 768px;
+}
+}
+@media (max-width: 768px){
+  .photo{
+    max-width:30%;
+  }
+}
+@media (min-width: 576px){
+  .container {
+    max-width: none;
+    padding: 0;
+}
+}
+
+
