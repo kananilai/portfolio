@@ -119,6 +119,9 @@ a {
 }
 
 /*-------------------- works -------------------*/
+.youtube{
+  margin:0 auto;
+}
 .cro-rec-title{
   font-size: 2.3em;
   display:inline-block;
